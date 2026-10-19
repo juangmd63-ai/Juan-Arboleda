@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b1020">
+  <meta name="description" content="Portafolio personal de [Tu nombre completo]: aprendizaje de Python, HTML, CSS y desarrollo de software.">
+  <title>[Tu nombre completo] | Portafolio tecnológico</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="ambient ambient-two" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="Ir al inicio"><span class="brand-mark">&lt;/&gt;</span><span>PORTAFOLIO<span class="brand-dot">.</span></span></a>
+    <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="main-nav">☰</button>
+    <nav id="main-nav" class="nav">
+      <a href="#sobre-mi">Sobre mí</a>
+      <a href="#tecnologias">Tecnologías</a>
+      <a href="#habilidades">Habilidades</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#contacto" class="nav-cta">Contacto <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="inicio">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="status-dot"></span> EN FORMACIÓN · MEDELLÍN, COLOMBIA</div>
+        <h1>Hola, soy <span class="gradient-text">[Tu nombre]</span>.<br>Estoy aprendiendo a<br>construir en digital<span class="accent">.</span></h1>
+        <p class="hero-lead">Un perfil en desarrollo, impulsado por la curiosidad técnica, el pensamiento analítico y las ganas de convertir ideas en proyectos reales.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#proyectos">Explorar proyectos <span>↓</span></a>
+          <a class="button button-secondary" href="#contacto">Contactarme <span>↗</span></a>
+        </div>
+        <div class="hero-meta">
+          <span><span class="meta-icon">⌘</span> Python · HTML · CSS</span>
+          <span><span class="meta-icon">◎</span> Aprendizaje práctico</span>
+        </div>
+      </div>
+      <div class="hero-visual" aria-label="Ilustración decorativa de código">
+        <div class="visual-orbit orbit-one"></div><div class="visual-orbit orbit-two"></div>
+        <div class="code-window">
+          <div class="window-top"><div class="window-dots"><i></i><i></i><i></i></div><span>about_me.py</span><span class="window-lock">⌁</span></div>
+          <div class="code-content">
+            <div><span class="line-no">01</span><span class="code-purple">class</span> <span class="code-blue">DeveloperInProgress</span>:</div>
+            <div><span class="line-no">02</span>&nbsp;&nbsp;<span class="code-purple">def</span> <span class="code-yellow">__init__</span>(self):</div>
+            <div><span class="line-no">03</span>&nbsp;&nbsp;&nbsp;&nbsp;self.name = <span class="code-green">"[Tu nombre]"</span></div>
+            <div><span class="line-no">04</span>&nbsp;&nbsp;&nbsp;&nbsp;self.location = <span class="code-green">"Medellín, CO"</span></div>
+            <div><span class="line-no">05</span>&nbsp;&nbsp;&nbsp;&nbsp;self.stack = [</div>
+            <div><span class="line-no">06</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-green">"Python"</span>, <span class="code-green">"HTML"</span>,</div>
+            <div><span class="line-no">07</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-green">"CSS"</span>, <span class="code-green">"AI tools"</span></div>
+            <div><span class="line-no">08</span>&nbsp;&nbsp;&nbsp;&nbsp;]</div>
+            <div><span class="line-no">09</span>&nbsp;&nbsp;&nbsp;&nbsp;self.mindset = <span class="code-green">"keep_learning"</span></div>
+            <div><span class="line-no">10</span><span class="cursor">▍</span></div>
+          </div>
+        </div>
+        <div class="floating-chip chip-python"><img src="https://cdn.simpleicons.org/python/3776AB" alt="" width="22" height="22"> Python</div>
+        <div class="floating-chip chip-html"><img src="https://cdn.simpleicons.org/html5/E34F26" alt="" width="22" height="22"> HTML</div>
+        <div class="floating-chip chip-ai"><span>✳</span> AI tools</div>
+      </div>
+      <a class="scroll-cue" href="#sobre-mi"><span></span> DESLIZA PARA EXPLORAR</a>
+    </section>
+
+    <section class="intro-strip">
+      <div class="section-wrap strip-inner">
+        <span>APRENDER</span><b>✳</b><span>EXPERIMENTAR</span><b>✳</b><span>CONSTRUIR</span><b>✳</b><span>MEJORAR</span>
+      </div>
+    </section>
+
+    <section class="section-wrap section-block" id="sobre-mi">
+      <div class="section-heading">
+        <p class="section-kicker">01 / PERFIL</p>
+        <h2>Curiosidad que busca<br><span class="gradient-text">convertirse en habilidad.</span></h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-copy">
+          <p class="large-copy">Actualmente estoy en formación en programación y desarrollo de software, construyendo una base técnica mediante el estudio y la práctica.</p>
+          <p>Me interesa comprender cómo funcionan las tecnologías, analizar problemas desde distintas perspectivas y explorar soluciones que puedan llevarse a la práctica. Mi curiosidad también abarca la ingeniería, el diseño conceptual y el funcionamiento de sistemas complejos.</p>
+          <p>Este espacio reúne mi progreso y los proyectos que vaya desarrollando. La intención es documentar lo aprendido, compartir código y construir un portafolio basado en resultados verificables.</p>
+        </div>
+        <aside class="goal-card">
+          <div class="card-symbol">◎</div>
+          <p class="card-label">OBJETIVO PROFESIONAL</p>
+          <h3>Aprender con intención. Construir con propósito.</h3>
+          <p>Fortalecer mis fundamentos de programación, desarrollar proyectos funcionales y adquirir experiencia práctica para evolucionar hacia un perfil profesional en desarrollo de software.</p>
+          <div class="goal-footer"><span class="status-dot"></span> Actualmente aprendiendo</div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section-block section-tinted" id="tecnologias">
+      <div class="section-wrap">
+        <div class="section-heading">
+          <p class="section-kicker">02 / STACK</p>
+          <h2>Herramientas en mi<br><span class="gradient-text">ruta de aprendizaje.</span></h2>
+          <p class="section-description">Tecnologías que forman parte de mi aprendizaje o de las herramientas que estoy explorando. Los iconos identifican cada tecnología, no certifican un nivel de dominio.</p>
+        </div>
+        <div class="tech-grid">
+          <article class="tech-card">
+            <div class="tech-icon"><img src="https://cdn.simpleicons.org/python/3776AB" alt="Python"></div>
+            <div><h3>Python</h3><p>Fundamentos de programación y ejercicios prácticos.</p><span class="tag">En aprendizaje</span></div>
+            <span class="tech-number">01</span>
+          </article>
+          <article class="tech-card">
+            <div class="tech-icon"><img src="https://cdn.simpleicons.org/html5/E34F26" alt="HTML5"></div>
+            <div><h3>HTML</h3><p>Estructura y organización del contenido web.</p><span class="tag">En aprendizaje</span></div>
+            <span class="tech-number">02</span>
+          </article>
+          <article class="tech-card">
+            <div class="tech-icon"><img src="https://cdn.simpleicons.org/css/663399" alt="CSS"></div>
+            <div><h3>CSS</h3><p>Estilos, diseño adaptable y presentación visual.</p><span class="tag">En aprendizaje</span></div>
+            <span class="tech-number">03</span>
+          </article>
+          <article class="tech-card">
+            <div class="tech-icon"><img src="https://cdn.simpleicons.org/github/F1F5F9" alt="GitHub"></div>
+            <div><h3>GitHub</h3><p>Plataforma para repositorios y publicación de proyectos.</p><span class="tag">Experiencia por ampliar</span></div>
+            <span class="tech-number">04</span>
+          </article>
+          <article class="tech-card">
+            <div class="tech-icon ai-icon">✳</div>
+            <div><h3>Herramientas de IA</h3><p>Exploración de herramientas para apoyar el aprendizaje y las ideas.</p><span class="tag">En exploración</span></div>
+            <span class="tech-number">05</span>
+          </article>
+        </div>
+        <p class="fine-print">* Los niveles se presentan de forma prudente. No se atribuyen certificaciones ni dominio avanzado no confirmado.</p>
+      </div>
+    </section>
+
+    <section class="section-wrap section-block" id="habilidades">
+      <div class="section-heading">
+        <p class="section-kicker">03 / FORTALEZAS</p>
+        <h2>Una mentalidad orientada<br><span class="gradient-text">a resolver problemas.</span></h2>
+      </div>
+      <div class="soft-grid">
+        <article class="soft-card"><span class="soft-icon">⌕</span><h3>Pensamiento analítico</h3><p>Examinar situaciones, identificar factores relevantes y comparar posibles explicaciones.</p></article>
+        <article class="soft-card"><span class="soft-icon">✳</span><h3>Curiosidad técnica</h3><p>Explorar cómo funcionan tecnologías y sistemas, y profundizar en conceptos nuevos.</p></article>
+        <article class="soft-card"><span class="soft-icon">◇</span><h3>Creatividad conceptual</h3><p>Plantear ideas y explorar distintos enfoques para abordar un problema.</p></article>
+        <article class="soft-card"><span class="soft-icon">↗</span><h3>Resolución de problemas</h3><p>Considerar alternativas y restricciones antes de evaluar una solución.</p></article>
+        <article class="soft-card"><span class="soft-icon">Aa</span><h3>Comunicación de ideas</h3><p>Formular preguntas concretas, aclarar escenarios y desarrollar argumentos.</p></article>
+        <article class="soft-card"><span class="soft-icon">↻</span><h3>Aprendizaje continuo</h3><p>Fortalecer progresivamente los conocimientos mediante estudio y práctica.</p></article>
+      </div>
+      <div class="collab-note"><span class="collab-icon">＋</span><div><h3>Colaboración y habilidades sociales</h3><p>El trabajo en equipo, la comunicación interpersonal y la colaboración se incorporarán con ejemplos concretos a medida que existan experiencias verificables.</p></div></div>
+    </section>
+
+    <section class="section-block section-tinted" id="proyectos">
+      <div class="section-wrap">
+        <div class="section-heading heading-row">
+          <div><p class="section-kicker">04 / PORTAFOLIO</p><h2>Proyectos que convierten<br><span class="gradient-text">la práctica en progreso.</span></h2></div>
+          <span class="coming-label"><span class="status-dot"></span> PORTAFOLIO EN CONSTRUCCIÓN</span>
+        </div>
+        <p class="section-description project-intro">Aquí irán proyectos reales, ejercicios y experimentos técnicos. Sustituye estas tarjetas por trabajos propios cuando estén listos para compartir.</p>
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-art project-art-one"><span class="project-code">&lt;html&gt;</span><div class="art-orb"></div><span class="art-caption">WEB / 001</span></div>
+            <div class="project-body"><div class="project-meta"><span>01 — DESARROLLO WEB</span><span class="project-status">PRÓXIMO</span></div><h3>[Proyecto web]</h3><p>Una página o interfaz para practicar estructura HTML, estilos CSS y diseño adaptable.</p><div class="project-tags"><span>HTML</span><span>CSS</span></div><div class="project-links"><span>Repositorio pendiente ↗</span><span>Demo pendiente ↗</span></div></div>
+          </article>
+          <article class="project-card">
+            <div class="project-art project-art-two"><span class="project-code">print("hello")</span><div class="python-mark">Py</div><span class="art-caption">PYTHON / 002</span></div>
+            <div class="project-body"><div class="project-meta"><span>02 — PROGRAMACIÓN</span><span class="project-status">PRÓXIMO</span></div><h3>[Proyecto en Python]</h3><p>Un programa pequeño para practicar lógica, variables, funciones y resolución de ejercicios.</p><div class="project-tags"><span>Python</span><span>Lógica</span></div><div class="project-links"><span>Repositorio pendiente ↗</span><span>Demo pendiente ↗</span></div></div>
+          </article>
+          <article class="project-card project-card-placeholder">
+            <div class="placeholder-plus">＋</div><div><h3>Tu próximo proyecto</h3><p>Documenta el problema, tu solución, lo que aprendiste y el resultado.</p></div>
+          </article>
+        </div>
+        <div class="project-note"><span>✳</span><p>Un proyecto pequeño, bien explicado y funcional puede demostrar más que una lista extensa de tecnologías sin ejemplos.</p></div>
+      </div>
+    </section>
+
+    <section class="section-wrap section-block" id="progreso">
+      <div class="section-heading">
+        <p class="section-kicker">05 / PROGRESO</p>
+        <h2>El progreso se demuestra<br><span class="gradient-text">con datos reales.</span></h2>
+        <p class="section-description">Las métricas se actualizarán cuando haya datos verificables. No se muestran estadísticas inventadas.</p>
+      </div>
+      <div class="metrics-grid">
+        <div class="metric-card"><span class="metric-icon">⌘</span><strong>[—]</strong><span>Proyectos realizados</span></div>
+        <div class="metric-card"><span class="metric-icon">⑂</span><strong>[—]</strong><span>Ramas creadas</span></div>
+        <div class="metric-card"><span class="metric-icon">⇄</span><strong>[—]</strong><span>Contribuciones</span></div>
+        <div class="metric-card"><span class="metric-icon">✎</span><strong>[—]</strong><span>Ejercicios resueltos</span></div>
+      </div>
+      <div class="metrics-footnote">Cómics realizados, si aplica: <strong>[completar: número]</strong> · Participaciones en proyectos: <strong>[completar: número]</strong> · Proyecto más popular: <strong>[por determinar]</strong>.</div>
+    </section>
+
+    <section class="section-block section-tinted" id="formacion">
+      <div class="section-wrap education-layout">
+        <div class="section-heading">
+          <p class="section-kicker">06 / FORMACIÓN</p>
+          <h2>Aprender hoy para<br><span class="gradient-text">construir mañana.</span></h2>
+        </div>
+        <div class="education-card">
+          <div class="education-symbol">▤</div><div><span class="card-label">FORMACIÓN ACADÉMICA</span><h3>[Programa académico o título en curso]</h3><p>[Institución educativa] · [Periodo]</p><div class="education-line"></div><span class="card-label">FORMACIÓN COMPLEMENTARIA</span><p>[Cursos, certificaciones o recursos de aprendizaje, si aplica]</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-wrap section-block contact-section" id="contacto">
+      <div class="contact-card">
+        <div class="contact-glow"></div>
+        <p class="section-kicker">07 / CONTACTO</p>
+        <h2>Las buenas ideas<br>empiezan <span class="gradient-text">con una conversación.</span></h2>
+        <p>Estoy construyendo mi perfil técnico y mi portafolio paso a paso. Puedes encontrarme en los siguientes canales.</p>
+        <div class="contact-actions">
+          <a class="button button-primary" href="mailto:[TU_CORREO]">Enviar un correo ↗</a>
+          <a class="button button-secondary" href="[URL_GITHUB]" target="_blank" rel="noopener noreferrer">Ver GitHub ↗</a>
+          <a class="button button-secondary" href="[URL_LINKEDIN]" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+        </div>
+        <div class="contact-location">⌖ Medellín, Antioquia, Colombia</div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand" href="#inicio"><span class="brand-mark">&lt;/&gt;</span><span>PORTAFOLIO<span class="brand-dot">.</span></span></a>
+    <p>Diseñado y construido con HTML y CSS.</p>
+    <a href="#inicio" class="back-top">Volver arriba ↑</a>
+    <span class="copyright">© <span id="year">2026</span> [Tu nombre]</span>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
